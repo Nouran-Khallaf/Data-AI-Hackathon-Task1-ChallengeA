@@ -1,0 +1,3 @@
+drug_key,n_pairs,pairs_ge_2,pairs_ge_3,pairs_ge_4,mean_fills_per_pair,median_fills_per_pair,max_fills_per_pair,repeated_chains,mean_unique_days_supply_repeated,median_unique_days_supply_repeated,mean_dominant_days_supply_share_repeated,median_dominant_days_supply_share_repeated
+NDC8,5471647,75278,4984,459,1.0147622827276686,1.0,7,75278,1.3923058529716517,1.0,0.8001874322353082,1.0
+NDC7,5178796,270105,67030,23828,1.072145147250442,1.0,12,270105,1.4871549952796135,1.0,0.742498494719853,1.0

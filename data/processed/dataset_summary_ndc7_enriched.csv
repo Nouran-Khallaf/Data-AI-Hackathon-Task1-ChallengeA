@@ -1,0 +1,2 @@
+grouping_key,grace_days,n_all_fill_rows,n_trainable_rows,n_classification_rows,late_rate,mean_target_days_late,median_target_days_late,n_feature_columns,n_patients,n_unique_groups
+NDC7,7,5434695,364262,364262,0.8745985032751151,226.71044467992817,175.0,120,54944,4104
