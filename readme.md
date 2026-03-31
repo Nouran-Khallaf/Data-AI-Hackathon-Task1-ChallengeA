@@ -35,9 +35,10 @@ The repository also includes the project data and generated outputs:
 └── data/                      # Project datasets
     └── processed/             # Ready-to-use processed data with features
 └── outputs/                   # Output figures, model results, and experiment artefacts
+```
 
 
-## Validation results
+### Validation results
 
 We evaluated the late-refill model using a **time-based split with patient holdout**, which is the appropriate setup for this task because it reduces temporal leakage and ensures that the same patient does not appear in both training and validation.
 
@@ -45,8 +46,8 @@ The validation split date was **2009-07-30**, with **72,890 validation rows** an
 
 Core validation metrics were:
 
-- **PR-AUC:** 0.8253
-- **AUROC:** 0.5950
+- **PR-AUC:** 0.8430
+- **AUROC:** 0.6357
 - **Brier score:** 0.3841
 
 The model output is the **predicted probability of late refill**, and the displayed risk score is that probability multiplied by 100.
